@@ -1,0 +1,8 @@
+.project
+Changes
+data.txt
+lib/Tribology/Lubricant.pm
+Makefile.PL
+MANIFEST
+README
+t/Tribology-Lubricant.t
