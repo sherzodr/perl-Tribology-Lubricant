@@ -6,6 +6,9 @@ WriteMakefile(
     NAME              => 'Tribology::Lubricant',
     VERSION_FROM      => 'lib/Tribology/Lubricant.pm', # finds $VERSION, requires EU::MM from perl >= 5.5
     PREREQ_PM         => {}, # e.g., Module::Name => 1.1
+    TEST_REQUIRES   => {
+        "Try::Tiny" => undef,
+    },
     ABSTRACT_FROM     => 'lib/Tribology/Lubricant.pm', # retrieve abstract from module
     AUTHOR            => 'Sherzod B. Ruzmetov <sherzodr@localdomain>',
     LICENSE           => 'perl',
